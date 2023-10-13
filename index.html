@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+    
+    <form id="contact-form">
+    <input type="text" id="name" placeholder="Nome" required>
+    <input type="text" id="phone" placeholder="Telefone" required>
+    <button type="button" onclick="addContact()">Cadastrar</button>
+    </form>
+    <table>
+    <thead>
+        <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody id="contact-list">
+    <!-- As linhas de contatos serão adicionadas aqui dinamicamente -->
+    </tbody>
+    </table>
+<script src="main.js"></script>
+</body>
+</html>
