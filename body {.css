@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.task-app {
+    text-align: center;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+#task-list li:hover {
+    background-color: #f0f0f0;
+}
